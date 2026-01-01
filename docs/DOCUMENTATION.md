@@ -50,6 +50,7 @@ The model is exposed via a REST API using **FastAPI**.
   "job_skill": 2,           // Integer: 0 (Unskilled), 1 (Resident), 2 (Skilled), 3 (Mgmt)
   "housing": 2              // Integer: 0 (Free), 1 (Rent), 2 (Own)
 }
+```
 
 ### Response Schema
 ```json
@@ -58,6 +59,7 @@ The model is exposed via a REST API using **FastAPI**.
   "confidence_score": 0.812,              // Float: 0.0 to 1.0
   "fairness_check": "Equalized Odds Applied" // String: Governance Tag
 }
+```
 
 ---
 
